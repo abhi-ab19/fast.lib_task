@@ -1,9 +1,15 @@
-The "gpdk045wc" library constitutes a component of a general process design kit, wherein "045" denotes the minimum width of the MOSFET channel. This particular library functions as a reservoir of critical data and values indispensable for the creation of integrated circuits. Upon integration into the EDA tool, designers gain the capacity to construct accurate and efficient circuit layouts. The library commences by elucidating fundamental attributes on a unit scale, encompassing time (ns), voltage (V), current (mA), and the default power sources.
-
-Contained within are an array of design specifications, housing distinct cells, each tailored to a specific logical operation such as ADD, SUB, XOR, DIF, and more. The notion of "cell area" pertains to the physical dimensions of a standard cell, exerting substantial influence over the overall circuit size contingent on the number of employed cells. Each cell is endowed with an array of pins, each possessing diverse parameters. The orientation of these pins serves to indicate their role as either inputs or outputs.
-
-Notably, every output pin embodies the functionality of the specific cell it belongs to. Furthermore, each cell is accompanied by its individual timing particulars, encompassing factors like propagation delays, setup times, and hold times. These specifics prove pivotal in ensuring precise estimation of circuit performance. Initially, all types of delays inherent in the timing parameters are predefined. This includes characteristics such as slew rates, observed at upper and lower thresholds for both raise and fall times, alongside their respective percentages.
-
-Every parameter undergoes rigorous testing within the design, culminating in the generation of relevant outputs, pivotal for subsequent analysis. Subsequently, a comprehensive compilation of transitions – encompassing raise, fall, and propagation delays – is provided to facilitate thorough evaluation of all timing parameters. Following this, the file incorporates power-related parameters, including internal power, fall power, and more.
-
-The subsequent step involves scrutinizing the design cells where mapping has taken place for each pin, while defining input characteristics alongside raise and fall capacitance. The direction of input and output pins, as well as their corresponding signal levels, is also well-delineated within the document.
+The "gpdk045wc" library constitutes a component of a general process design kit, wherein "045" denotes the minimum width of the MOSFET channel.
+This particular library functions as a reservoir of critical data and values indispensable for the creation of integrated circuits.
+Upon integration into the EDA tool, designers gain the capacity to construct accurate and efficient circuit layouts.
+The library commences by elucidating fundamental attributes on a unit scale, encompassing time (ns), voltage (V), current (mA), and the default power sources.
+Contained within are an array of design specifications, housing distinct cells, each tailored to a specific logical operation such as ADD, SUB, XOR, DIF, and more.
+The notion of "cell area" pertains to the physical dimensions of a standard cell, exerting substantial influence over the overall circuit size contingent on the number of employed cells.
+Each cell is endowed with an array of pins, each possessing diverse parameters. The orientation of these pins serves to indicate their role as either inputs or outputs.
+Notably, every output pin embodies the functionality of the specific cell it belongs to.
+Furthermore, each cell is accompanied by its individual timing particulars, encompassing factors like propagation delays, setup times, and hold times.
+These specifics prove pivotal in ensuring precise estimation of circuit performance.
+Initially, all types of delays inherent in the timing parameters are predefined. This includes characteristics such as slew rates, observed at upper and lower thresholds for both raise and fall times, alongside their respective percentages.
+Every parameter undergoes rigorous testing within the design, culminating in the generation of relevant outputs, pivotal for subsequent analysis.
+Subsequently, a comprehensive compilation of transitions – encompassing raise, fall, and propagation delays – is provided to facilitate thorough evaluation of all timing parameters. Following this, the file incorporates power-related parameters, including internal power, fall power, and more.
+The subsequent step involves scrutinizing the design cells where mapping has taken place for each pin, while defining input characteristics alongside raise and fall capacitance.
+The direction of input and output pins, as well as their corresponding signal levels, is also well-delineated within the document.
